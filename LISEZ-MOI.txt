@@ -1,0 +1,26 @@
+KLASS C ATTOBAN — MINI-SITE COIFFURE HOMME
+================================================
+
+Fichiers :
+- index.html : structure et contenu du site
+- style.css  : design responsive rouge / jaune / noir
+- script.js  : menu hamburger, panier, favoris, formulaire WhatsApp
+
+DÉMARRAGE
+1. Téléchargez et décompressez le ZIP.
+2. Gardez les trois fichiers dans le même dossier.
+3. Double-cliquez sur index.html pour ouvrir le site dans Chrome, Edge ou Firefox.
+4. Une connexion Internet est nécessaire pour charger les photos externes et la police Google.
+
+FONCTIONS
+- Menu hamburger sur mobile et tablette
+- Prestations ajoutables au panier avec compteur
+- Favoris avec compteur, fenêtre modale et conservation locale dans le navigateur
+- Retrait d'un article / vidage du panier
+- Formulaire de demande de réservation prérempli dans WhatsApp
+- Boutons WhatsApp et mise en page responsive
+
+À SAVOIR
+Ce livrable est un site front-end statique, pas un backend serveur. Le panier et les favoris sont enregistrés dans le navigateur du visiteur (localStorage). La réservation est envoyée via WhatsApp après validation manuelle du client ; aucune base de données ni espace administrateur n'est installé.
+
+Le numéro WhatsApp configuré dans script.js est 2250584887016, construit à partir du numéro fourni (05 84 88 7016). Testez-le avant publication. Les prix des prestations sont indicatifs et doivent être validés par le salon.

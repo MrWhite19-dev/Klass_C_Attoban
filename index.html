@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111111">
+  <meta name="description" content="Klass C Attoban Coiffure Homme — coupes, soins et réservations WhatsApp à Abidjan.">
+  <title>Klass C Attoban | Coiffure Homme</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="announcement"><span class="pulse"></span> LE STYLE COMMENCE ICI <span class="announcement-dot">•</span> ATT0BAN, ABIDJAN</div>
+  <header class="site-header">
+    <a class="brand" href="#accueil" aria-label="Klass C, accueil">
+      <span class="brand-mark">K<span>C</span></span>
+      <span class="brand-copy"><strong>KLASS C</strong><small>ATT0BAN · COIFFURE HOMME</small></span>
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-menu" id="nav-menu">
+      <a href="#accueil" class="nav-link active">Accueil</a>
+      <a href="#prestations" class="nav-link">Prestations</a>
+      <a href="#apropos" class="nav-link">Le salon</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <button class="nav-action" id="open-order">Réserver <span>↗</span></button>
+    </nav>
+    <div class="header-tools">
+      <button class="icon-button" id="open-favorites" aria-label="Voir les favoris" title="Favoris">
+        <span class="tool-icon">♡</span><span class="count-badge" id="favorite-count">0</span>
+      </button>
+      <button class="icon-button" id="open-cart" aria-label="Voir le panier" title="Panier">
+        <span class="tool-icon">▣</span><span class="count-badge yellow" id="cart-count">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="hero-grid"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> BARBER SHOP · ABIDJAN</p>
+        <h1>TON STYLE.<br><span>TES RÈGLES.</span></h1>
+        <p class="hero-description">Une coupe nette, une finition précise et une équipe à l'écoute. Prends ta place chez Klass C Attoban.</p>
+        <div class="hero-actions">
+          <a class="button button-yellow" href="#prestations">Découvrir les coupes <span>↘</span></a>
+          <button class="button button-outline" id="hero-order">Réserver sur WhatsApp <span>↗</span></button>
+        </div>
+        <div class="hero-rating">
+          <div class="stars">★★★★★</div>
+          <strong>4,0/5</strong><span>· 76 avis Google indiqués</span>
+        </div>
+        <div class="hero-stamp"><span>KLASS<br>C</span><small>FRESH<br>LOOK</small></div>
+      </div>
+      <div class="hero-visual" role="img" aria-label="Ambiance barber shop moderne">
+        <div class="hero-photo photo-main"></div>
+        <div class="photo-label"><span class="label-square">KC</span><span><strong>FRESH CUTS</strong><small>LOOK SHARP. FEEL GOOD.</small></span></div>
+        <div class="vertical-note">PRECISION • STYLE • CONFIDENCE</div>
+        <div class="hero-yellow-shape"></div>
+      </div>
+      <div class="hero-bottom"><span>01 / LE STYLE AU QUOTIDIEN</span><span>SCROLL POUR EXPLORER ↓</span></div>
+    </section>
+
+    <section class="ticker" aria-label="Nos valeurs">
+      <div class="ticker-track"><span>COUPE PRÉCISE</span><b>✳</b><span>STYLE FRAIS</span><b>✳</b><span>ÉQUIPE PRO</span><b>✳</b><span>COUPE PRÉCISE</span><b>✳</b><span>STYLE FRAIS</span><b>✳</b><span>ÉQUIPE PRO</span><b>✳</b></div>
+    </section>
+
+    <section class="section services-section" id="prestations">
+      <div class="section-heading">
+        <div><p class="eyebrow"><span></span> TROUVE TON STYLE</p><h2>LES <span>PRESTATIONS</span></h2></div>
+        <p>Choisis une prestation, ajoute-la au panier ou garde-la dans tes favoris. Les tarifs ci-dessous sont à confirmer directement avec le salon.</p>
+      </div>
+      <div class="notice"><span>i</span> Les prix affichés sont indicatifs. Confirme le tarif et la disponibilité par WhatsApp avant ton rendez-vous.</div>
+      <div class="service-grid" id="service-grid">
+        <article class="service-card" data-id="coupe-classique" data-name="Coupe classique" data-price="2000">
+          <div class="service-image image-classic"><span class="service-number">01</span><button class="favorite-toggle" aria-label="Ajouter Coupe classique aux favoris">♡</button><span class="image-tag">CLEAN LOOK</span></div>
+          <div class="service-info"><div><h3>Coupe classique</h3><p>Propre, simple, intemporelle.</p></div><strong class="price">2 000 <small>FCFA*</small></strong></div>
+          <div class="service-actions"><button class="add-cart">Ajouter au panier <span>＋</span></button><button class="quick-order" aria-label="Commander Coupe classique">↗</button></div>
+        </article>
+        <article class="service-card" data-id="degrade" data-name="Dégradé / Fade" data-price="3000">
+          <div class="service-image image-fade"><span class="service-number">02</span><button class="favorite-toggle" aria-label="Ajouter Dégradé aux favoris">♡</button><span class="image-tag">FRESH FADE</span></div>
+          <div class="service-info"><div><h3>Dégradé / Fade</h3><p>Des contours nets et précis.</p></div><strong class="price">3 000 <small>FCFA*</small></strong></div>
+          <div class="service-actions"><button class="add-cart">Ajouter au panier <span>＋</span></button><button class="quick-order" aria-label="Commander Dégradé">↗</button></div>
+        </article>
+        <article class="service-card" data-id="barbe" data-name="Taille de barbe" data-price="1500">
+          <div class="service-image image-beard"><span class="service-number">03</span><button class="favorite-toggle" aria-label="Ajouter Taille de barbe aux favoris">♡</button><span class="image-tag">BEARD CARE</span></div>
+          <div class="service-info"><div><h3>Taille de barbe</h3><p>Contours soignés, finition clean.</p></div><strong class="price">1 500 <small>FCFA*</small></strong></div>
+          <div class="service-actions"><button class="add-cart">Ajouter au panier <span>＋</span></button><button class="quick-order" aria-label="Commander Taille de barbe">↗</button></div>
+        </article>
+        <article class="service-card" data-id="coupe-barbe" data-name="Coupe + barbe" data-price="4000">
+          <div class="service-image image-combo"><span class="service-number">04</span><button class="favorite-toggle" aria-label="Ajouter Coupe + barbe aux favoris">♡</button><span class="image-tag">FULL PACKAGE</span></div>
+          <div class="service-info"><div><h3>Coupe + barbe</h3><p>Le combo pour un look complet.</p></div><strong class="price">4 000 <small>FCFA*</small></strong></div>
+          <div class="service-actions"><button class="add-cart">Ajouter au panier <span>＋</span></button><button class="quick-order" aria-label="Commander Coupe + barbe">↗</button></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-section" id="apropos">
+      <div class="about-image"><div class="about-image-inner"></div><span class="about-sticker">GOOD<br>VIBES<br><b>ONLY</b></span></div>
+      <div class="about-content"><p class="eyebrow"><span></span> BIENVENUE CHEZ KLASS C</p><h2>PLUS QU'UNE COUPE.<br><span>UNE SIGNATURE.</span></h2>
+        <p>Chez Klass C Attoban, l'objectif est simple : t'accueillir dans un salon agréable et te proposer une coupe qui correspond à ton style. Les avis partagés en ligne soulignent notamment l'accueil, la propreté et le professionnalisme de l'équipe.</p>
+        <div class="about-points"><div><span>✳</span><div><strong>Une équipe à l'écoute</strong><small>Un service pensé autour de tes envies.</small></div></div><div><span>✳</span><div><strong>Un moment confortable</strong><small>Un salon climatisé selon les avis disponibles.</small></div></div></div>
+        <a class="text-link" href="#contact">Retrouver le salon <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="cta-section" id="contact"><div class="cta-mark">KC</div><p class="eyebrow"><span></span> PRÊT POUR LE PROCHAIN LOOK ?</p><h2>ON S'OCCUPE<br><span>DE TON STYLE.</span></h2><p>Contacte le salon pour confirmer les tarifs, les horaires et réserver ton passage.</p><div class="cta-actions"><button class="button button-yellow" id="contact-order">Préparer ma réservation <span>↗</span></button><a class="button button-outline" href="https://wa.me/2250584887016" target="_blank" rel="noopener">Écrire sur WhatsApp <span>↗</span></a></div>
+      <div class="contact-details"><div><small>ADRESSE</small><strong>92F8+4M6, L 23, Abidjan</strong></div><div><small>TÉLÉPHONE</small><strong>05 84 88 7016</strong></div><div><small>HORAIRES</small><strong>Ouverture indiquée à 08:00*</strong></div></div>
+      <p class="small-note">*Informations reprises de la fiche fournie. Vérifie les horaires et les prix auprès du salon.</p>
+    </section>
+  </main>
+
+  <footer><a class="footer-brand" href="#accueil">KLASS <span>C</span></a><span>© <span id="year"></span> Klass C Attoban · Coiffure Homme</span><a href="#accueil">Retour en haut ↑</a></footer>
+
+  <a class="whatsapp-float" href="https://wa.me/2250584887016" target="_blank" rel="noopener" aria-label="Contacter Klass C sur WhatsApp"><span class="wa-symbol">✆</span><span>WHATSAPP</span><i></i></a>
+
+  <!-- Fenêtre modale panier / favoris / commande -->
+  <div class="modal-backdrop" id="modal-backdrop" aria-hidden="true">
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" id="modal-close" aria-label="Fermer">×</button>
+      <p class="eyebrow"><span></span> KLASS C · ATT0BAN</p>
+      <h2 id="modal-title">TON ESPACE</h2>
+      <div id="modal-content"></div>
+    </section>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
